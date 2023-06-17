@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritik`s PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a2dc9106b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="ritik_logo.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ritik</span><br>Bhatodra From India</h1>
+
+
+
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>"Hello, I'm Ritik Bhatodra, a UI/UX designer with a passion for Designing Web Pages. With one years of experience, I have honed my skills in UX/UI designer. I am dedicated to delivering Quality solutions and thrive in collaborative environments. Let's bring your ideas to life together."</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface<br></li>
+                            <li><span>Web Development</span><br>Web App Development<br></li>
+                            <li><span>App Development</span><br>Designing Web/App interface<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>Designing Web/App interface<br></li>
+                            <li><span>2020 - 2023</span><br>Web App Development<br></li>
+                            <li><span>2018 - 2020 </span><br>Designing Web/App interface<br></li>
+                            <li><span>2017 - 2018 </span><br>Designing Web/App interface<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br>B.tech(Automobile Engineering)<br></li>
+                            <li><span>2019</span><br>Class-XII<br></li>
+                            <li><span>2016</span><br>Class-X<br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eius voluptates error assumenda
+                        praesentium quidem tenetur. Tempora fuga, ex aliquid minima est quaerat excepturi
+                        exercitationem. Architecto quia eaque tenetur voluptas.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UX/UI Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eius voluptates error assumenda
+                        praesentium quidem tenetur. Tempora fuga, ex aliquid minima est quaerat excepturi
+                        exercitationem. Architecto quia eaque tenetur voluptas.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et eius voluptates error assumenda
+                        praesentium quidem tenetur. Tempora fuga, ex aliquid minima est quaerat excepturi
+                        exercitationem. Architecto quia eaque tenetur voluptas.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg " height="500px" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to Talented people around the globe, Download it from Playstore </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg " height="500px" alt="">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>The app connects you to Talented people around the globe, Download it from Playstore </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+
+                </div>
+                <div class="work">
+                    <img src="work3.jpg" height="500px" alt="">
+                    <div class="layer">
+                        <h3>Document Editor app</h3>
+                        <p>The app connects you to Talented people around the globe, Download it from Playstore </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+        </div>
+    </div>
+    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>ritikbhatodra123@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7987315895</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="RITIK.pdf" download class="btn btn2">Download CV</a>
+
+
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" cols="30" rows="10" placeholder="Your Message"> </textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>copyright© Ritik, Made <i class="fa-solid fa-heart" style="color: #ff0000;"></i> by Ritik Bhatodra
+            </p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add('active-link')
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+</body>
+
+</html>
